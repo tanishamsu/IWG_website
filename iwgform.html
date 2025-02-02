@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="iwgform.css">
+    <link rel="stylesheet" href="responsive2.css">
+    <title>IWGfrom</title>
+</head>
+<body>
+
+    <div class="leftdiv">
+            <div class="text">
+                    <h3 >Have a project in mind</h3>
+                    <h1>Let's talk !
+                        <img src="img/hand.png" alt="UI UX Design developer"  class="img1">
+                    </h1>
+            </div>
+    </div>
+     
+
+
+    <div class="rightdiv">
+            <div class="form">
+                <form>
+                    <a href="./iwgpage.html" class="close"></a>
+                    <h2 class="heading">I'm interested in...</h2>
+
+                             <!-- <input class="cl-custom-check" id="marking_01" type="checkbox" />
+	                         <label class="cl-custom-check-label" for="marking_01" title="Click for select/unselect">Turn-key Custom Show/Attraction</label> -->
+
+                               
+                             <div class="box">
+                               
+                                <div class="button" onclick="checkbox(this)">
+                                    <label>Rentable Shows & Attractions</label>
+                                    <label>Rentable Shows & Attractions</label>
+                                </div>
+                                <div class="button" onclick="checkbox(this)">
+                                    <label>Concept & Creative Direction</label>
+                                    <label>Concept & Creative Direction</label>
+                                </div>
+                                <div class="button" onclick="checkbox(this)">
+                                    <label>Technical Direction</label>
+                                    <label>Technical Direction</label>
+                                </div>
+
+                                <div class="button" onclick="checkbox(this)">
+                                    <label>Training & Education</label>
+                                    <label>Training & Education</label>
+                                </div>
+                                <div class="button" onclick="checkbox(this)">
+                                    <label>I'm not sure</label>
+                                    <label>I'm not sure</label>
+                                </div>
+                            
+                            </div>
+                        
+
+
+                             <!-- <input class="cl-custom-check" id="marking_02" type="checkbox" />
+	                         <label class="cl-custom-check-label" for="marking_02" title="Click for select/unselect">Rentable Shows & Attractions</label>
+
+                             <input class="cl-custom-check" id="marking_03" type="checkbox" />
+	                         <label class="cl-custom-check-label" for="marking_03" title="Click for select/unselect">Concept & Creative Direction</label>
+
+                             <input class="cl-custom-check" id="marking_04" type="checkbox" />
+	                         <label class="cl-custom-check-label" for="marking_04" title="Click for select/unselect">Technical Direction</label>
+
+                             <input class="cl-custom-check" id="marking_05" type="checkbox" />
+	                         <label class="cl-custom-check-label" for="marking_05" title="Click for select/unselect">Training & Education</label>
+
+                             <input class="cl-custom-check" id="marking_06" type="checkbox" />
+	                         <label class="cl-custom-check-label" for="marking_06" title="Click for select/unselect">I'm not sure</label> -->
+
+
+                             <input name="text" type="text" placeholder="Your name">
+                             <hr class="solid">
+
+                             <input name="text" type="text" placeholder="Your email">
+                             <hr class="solid">
+
+                             <textarea name="text" type="textarea" class="scroller" placeholder="When does your project open?"></textarea>
+                             <hr class="solid">
+
+                             <textarea name="text" type="textarea" class="scroller" placeholder="Brief Project Description/Scope"></textarea>
+                             <hr class="solid">
+
+                             <h2 class="label1"> Project budget (USD)</h2>
+
+
+                             <div class="div1">
+                             <input type="radio" id="lang-1" name="lang" value="number" class="radio"  type="radio">
+                             <label class="label label-1" for="lang-1">$20-50K</label>
+
+
+                             <input type="radio" id="lang-2" name="lang" value="number" class="radio"  type="radio">
+                             <label class="label label-2" for="lang-2">$50-100K</label>
+                    
+                    
+                             <input type="radio" id="lang-3" name="lang" value="number" class="radio"  type="radio">
+                             <label class="label label-3" for="lang-3">$100-250K</label> 
+
+                             <input type="radio" id="lang-4" name="lang" value="number" class="radio"  type="radio">
+                             <label class="label label-4" for="lang-4">$250-750K</label> 
+
+                             <input type="radio" id="lang-5" name="lang" value="number" class="radio"  type="radio">
+                             <label class="label label-5" for="lang-5">$750-1.5Mil</label> 
+
+                             <input type="radio" id="lang-6" name="lang" value="number" class="radio"  type="radio">
+                             <label class="label label-6" for="lang-6">$2Mil+</label> 
+                
+                            </div>
+
+                    <h2 class="label2">Send request</h2>  
+                    <!-- <a href="./iwgpage.html"><h1 class="label2">Send request</h1></a>   -->
+
+
+               <!-- <a href="#" target="_blank">Privacy Policy and Terms of Service apply.</a> -->
+                    <p class="links"><a href="#" target="_blank">Privacy Policy</a>and<a href="#" target="_blank">Terms of Service apply.</a></p>
+                </form>
+            </div>
+    </div>
+    <script>
+        function checkbox(button) {
+    if (button.style.backgroundColor === "black") {
+        button.style.backgroundColor = "white";
+        button.style.color = "black";
+    } else {
+        button.style.backgroundColor = "black";
+        button.style.color = "white";
+    }
+}
+    </script>
+</body>
+</html>
+

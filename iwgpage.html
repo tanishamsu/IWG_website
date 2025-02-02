@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="iwgpage.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="icon" type="image/x-icon" href="./img/faviconimg.png">
+    <title>IWGpage</title>
+    
+</head>
+<body>
+
+    <canvas id="canvas"></canvas>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo-nav">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="120" height="48.824" viewBox="0 0 120 48.824" class="a">
+                        <g id="Group_45" data-name="Group 45" transform="translate(-98 -50.296)">
+                          <path id="Path_2" data-name="Path 2" d="M168.32-126.062l-7.38,24.261-10.308-24.082h-.179l-10.338,24.112-7.41-24.291H122.276L137.962-77.3h.538l11.922-26.174,12.1,26.174h.568l15.687-48.762ZM136.785-89.309a2.052,2.052,0,0,1,2.052-2.052,2.043,2.043,0,0,1,1.281.45l-2.884,2.884A2.043,2.043,0,0,1,136.785-89.309Zm2.052,2.052a2.044,2.044,0,0,1-1.3-.467l2.889-2.889a2.043,2.043,0,0,1,.467,1.3A2.052,2.052,0,0,1,138.837-87.256Zm21.34-1.667a2.052,2.052,0,0,1,2.052-2.052,2.043,2.043,0,0,1,1.281.45l-2.884,2.884A2.044,2.044,0,0,1,160.177-88.923Zm2.052,2.052a2.044,2.044,0,0,1-1.3-.467l2.889-2.889a2.042,2.042,0,0,1,.467,1.3A2.052,2.052,0,0,1,162.229-86.871Zm-35.4-33.892a2.052,2.052,0,0,1,2.052-2.052,2.042,2.042,0,0,1,1.281.45l-2.884,2.884A2.043,2.043,0,0,1,126.829-120.763Zm2.052,2.052a2.044,2.044,0,0,1-1.3-.467l2.889-2.889a2.044,2.044,0,0,1,.467,1.3A2.052,2.052,0,0,1,128.881-118.711Zm41.066-1.667A2.052,2.052,0,0,1,172-122.43a2.043,2.043,0,0,1,1.281.45L170.4-119.1A2.043,2.043,0,0,1,169.947-120.378ZM172-118.325a2.044,2.044,0,0,1-1.3-.467l2.889-2.889a2.043,2.043,0,0,1,.467,1.3A2.052,2.052,0,0,1,172-118.325Z" transform="translate(-7.853 176.358)" fill="#fff"/>
+                          <path id="Path_3" data-name="Path 3" d="M406.719-104.657H384.665v8.7H396.8c-.32,5.644-5.121,9.077-11.812,9.077-9.165,0-15.508-6.692-15.508-14.838a14.968,14.968,0,0,1,14.635-14.926c4.19,0,8.379,2.037,12.045,5.615l5.237-7.826a25.845,25.845,0,0,0-17.166-7.332,24.5,24.5,0,0,0-24.352,24.468,24.433,24.433,0,0,0,24.7,24.323c12.22,0,22.374-8.583,22.374-23.3A37.433,37.433,0,0,0,406.719-104.657ZM393.887-99.11a2.208,2.208,0,0,0,1.835-2.526,2.208,2.208,0,0,0,2.526,1.835,2.208,2.208,0,0,0-1.835,2.526A2.208,2.208,0,0,0,393.887-99.11Zm7.567,10.261a3.87,3.87,0,0,0-4.428-3.216,3.87,3.87,0,0,0,3.216-4.428,3.87,3.87,0,0,0,4.428,3.216A3.87,3.87,0,0,0,401.454-88.849Zm2.249-7.586A2.607,2.607,0,0,0,400.72-98.6a2.607,2.607,0,0,0,2.167-2.983,2.607,2.607,0,0,0,2.983,2.167A2.607,2.607,0,0,0,403.7-96.435Zm-6.028-6.092a1.253,1.253,0,0,0,1.041-1.434,1.253,1.253,0,0,0,1.433,1.041,1.253,1.253,0,0,0-1.041,1.433A1.253,1.253,0,0,0,397.675-102.527Zm0,15.637a1.111,1.111,0,0,0,.924-1.271,1.111,1.111,0,0,0,1.272.923,1.111,1.111,0,0,0-.924,1.272A1.111,1.111,0,0,0,397.679-86.891Z" transform="translate(-188.951 176.517)" fill="#fff"/>
+                          <g id="Group_1" data-name="Group 1" transform="translate(98 50.33)">
+                            <path id="Path_5" data-name="Path 5" d="M77.382-41.1l-8.86,9.342v2.437l8.86-9.342Z" transform="translate(-68.523 60.665)" fill="#fff"/>
+                            <path id="Path_6" data-name="Path 6" d="M77.382-59.49l-8.86,9.342v2.332l8.86-9.342Z" transform="translate(-68.523 74.812)" fill="#fff"/>
+                            <path id="Path_7" data-name="Path 7" d="M68.523-12.917V2.558h8.86V-22.259Z" transform="translate(-68.523 46.17)" fill="#fff"/>
+                            <path id="Path_8" data-name="Path 8" d="M77.382-125.914h-8.86v22.755l8.86-9.342Z" transform="translate(-68.523 125.913)" fill="#fff"/>
+                          </g>
+                        </g>
+                      </svg>
+                      
+                </a>
+                  
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- ================== section 1 start  ============= -->
+    <section class="s1">
+        <div class="div1">
+                <div class="img1"><img src="https://d50xtvgt9ge19.cloudfront.net/character.png" alt="">
+                <h1 class="heading1">4.97 Million Smiles (and counting)</h1>
+                <h3 class="heading2">IWG creates location-based marquee shows, attractions, and guest experiences that surge attendance & grow profits.</h3>                
+                <a class="a1" href="iwgform.html"><button class="btn1">LAUNCH YOUR<span> PRODUCT</span></button></a> 
+                <div id="div4">
+                    <h5 class="heading5">SCROLL DOWN</h5>
+                    <a id="scroll-btn"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================== section 1 end  ============= -->
+
+    <!-- ================== section 2 start  ============= -->
+
+        <section class="s2">
+        <div class="div2">
+            <h1 class="heading3">Haunts, Holidays</h1>
+            <p class="heading4">& Hard Projects!</p>
+        </div>
+
+        <div class="div3">
+            <p>
+                <span>Productions offers Creative, Technical, and Rigging Leadership for live experiences throughout </span>
+            <span>  the year. Whether you seek a creative launchpad or a crack-team to handle the really hard jobs, we</span>
+            <span>offer a collective 50 years of experience bringing location-based entertainment to life for iconic </span>
+            <span>venues and brands throughout North America.</span>
+            </p>
+            <!-- button  -->
+            <div class="btn-container">
+                <a href="iwgform.html" class="s2-button">GET STARTED WITH US <img src="img/icons8-down-right-24.png" alt="arrow" class="img2"></a>
+                </div>
+        </div>
+    </section>
+
+    <!-- ================== section 2 end  ============= -->
+
+    <!-- =============first video start==========  -->
+   <section class="banner-video">
+    <div class="video1div6">
+        <video autoplay="autoplay" playsinline="" muted="on" class="desktop-image" loop="loop"><source src="img/HP-vid.mp4" type="video/mp4"></video>
+  
+    </div>
+   </section>
+    <!-- =============first video end==========  -->
+
+
+
+   <!-- ================== section 3 start  ============= -->
+    <section class="s3">
+        <div class="div5">
+            <h1 class="heading6">Turnkey Shows or White Label Service, We fit your need</h1>
+            <p class="p2"><span>We pride ourselves on merging seamlessly with your organization’s existing capabilities. IWG can provide you a complete, turn-key event or support your existing 
+                team through creative direction, technical direction, and rigging expertise.</span></p> 
+            <a class="a3" href="iwgform.html"><button class="btn3"><img src="img/icons8-up-right-24.png" alt="arrow" class="img3"></button></a> 
+        </div>
+
+    </section>
+
+   <section class="s4">
+        <div class="container2" >
+                 <div class="div8"> 
+                            <img src="img/2045ef112624455.601836ade08ae@2x.png" alt="">
+                 </div>
+                 <div class="div9"> 
+                     <div class="div9video3">
+                        <img src="img/63d15f513ad5ecfa6838003e_project-04-p-2000@2x.png" alt="">
+                   </div>
+                    <div class="div10video4">
+                       <img src="img/ac9da2187716781.658e8a4f86fba@2x.png" alt="">
+                    </div> 
+                 </div>
+           </div>
+    </section>
+
+
+   <!-- ================== section 3 end  ============= -->
+
+   <footer class="footer">
+         <div class="div11"> 
+             <h1 class="heading7"> Want to know more?</h1>
+             <h1 class="heading8"> Contact Us Today! </h1>
+         </div>
+        
+         <div class="container3">
+            <div class="email">
+                <a href="mailto:hello@iwgproductions.com">hello@iwgproductions.com</a>
+            </div>
+            <div class="links">
+                <a href="https://www.instagram.com/iwgproductions/" class="links1"> Instagram</a>
+                <a href="https://www.linkedin.com/company/iwgproductions" class="links2">Linkedin</a>
+            </div>
+         </div>
+       
+   </footer>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+   <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+   <script src="iwgpage.js"></script> 
+
+   <script>
+    const lenis = new Lenis()
+
+lenis.on('scroll', (e) => {
+  console.log(e)
+})
+
+function raf(time) {
+  lenis.raf(time)
+  requestAnimationFrame(raf)
+}
+
+requestAnimationFrame(raf)
+   </script>
+</body>
+</html>
+
+
+
